@@ -1,8 +1,5 @@
 import { Request, Response } from "express"
 import { AccountBusiness } from "../business/AccountBusiness"
-import { AccountDatabase } from "../database/AccountDatabase"
-import { Account } from "../models/Account"
-import { AccountDB } from "../types"
 
 export class AccountController {
     public getAccounts = async (req: Request, res: Response) => {
